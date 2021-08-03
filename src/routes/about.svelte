@@ -17,8 +17,8 @@
 <main>
 	<div class="container">
 		<div class="card__container">
-            <h1 class="title">About me</h1>
-            <h2><o> I like <a href="">coffee</a> and <a href="">Japanese</a> (language)</o></h2>
+            <h1 class="title">me</h1>
+            <h2><o> I like <a href="">coffee</a> and <a href="">languages</a></o></h2>
         </div>
 
 		<div class="image__container">
@@ -41,7 +41,9 @@
 	</div>
 </main>
 
-<style>
+<style lang="scss">
+	// maybe try this font for headers?
+	// https://www.1001fonts.com/beon-font.html
 	ul li {
 		list-style: none;
 	}
@@ -53,5 +55,13 @@
 	div.image__container {
 		display: flex;
 		flex-direction: row;
+	}
+
+	a { 
+		color: black;
+		text-decoration: none;
+		&:hover {
+			color: grey;
+		}
 	}
 </style>
